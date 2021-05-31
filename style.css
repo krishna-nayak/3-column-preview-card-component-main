@@ -52,15 +52,27 @@ body {
     width: 150px;
     height: 50px;
     border-radius: 50px;
-    background-color: transparent;
+    background-color: #fff;
     border: 2px solid #fff;
     color: hsla(0, 0%, 100%, 0.75);
     text-transform: capitalize;
     font-family: "Lexend Deca", sans-serif;
     cursor: pointer;
 }
-/* media --- 1190px --> width: 200px 
-         --- 900px ---->   810px */
+
+.card:nth-child(1) button {
+    color: hsl(31, 77%, 52%);
+}
+.card:nth-child(2) button {
+    color: hsl(184, 100%, 22%);
+}
+.card:nth-child(3) button {
+    color: hsl(179, 100%, 13%);
+}
+.card button:hover {
+    background: transparent;
+    color: #fff;
+}
 
 @media (max-width: 920px) {
     .card {
@@ -75,10 +87,15 @@ body {
         display: contents;
     }
     .container {
+        min-width: 325px;
+        width: 60%;
         flex-direction: column;
-        margin: 90px 25px;
+        margin: 100px auto;
     }
     .card {
         width: auto;
+    }
+    .card p {
+        margin: 20px 0;
     }
 }
