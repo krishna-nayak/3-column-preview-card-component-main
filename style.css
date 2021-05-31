@@ -5,12 +5,13 @@
     padding: 0;
 }
 
+/* margin-top: 170px */
+
 body {
     background-color: hsl(0, 0%, 95%);
     font-family: "Lexend Deca", sans-serif;
     font-size: 15px;
-    height: 100vh;
-    margin: 0 10%;
+    margin: 150px 10%;
     display: grid;
     place-items: center;
 }
@@ -83,7 +84,6 @@ body {
 
 @media (max-width: 810px) {
     body {
-        height: auto;
         display: contents;
     }
     .container {
