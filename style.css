@@ -5,8 +5,6 @@
     padding: 0;
 }
 
-/* margin-top: 170px */
-
 body {
     background-color: hsl(0, 0%, 95%);
     font-family: "Lexend Deca", sans-serif;
@@ -31,6 +29,7 @@ body {
 
 .card {
     padding: 0 45px;
+    max-height: 500px;
 }
 .card .image {
     margin: 40px 0 20px;
@@ -59,6 +58,7 @@ body {
     text-transform: capitalize;
     font-family: "Lexend Deca", sans-serif;
     cursor: pointer;
+    transition: background 0.5s linear;
 }
 
 .card:nth-child(1) button {
