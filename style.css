@@ -48,7 +48,7 @@ body {
     min-width: 200px;
     color: hsla(0, 0%, 100%, 0.75);
     margin: 40px 0;
-    line-height: 2;
+    line-height: 1.6;
 }
 .card button {
     margin: 20px 0 50px;
